@@ -1,0 +1,82 @@
+/* Reset e Fonte Padrão */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Barra de Navegação */
+.navbar {
+    background: #157D78;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    color: white;
+}
+.navbar img {
+    height: 40px;
+}
+.search-bar {
+    flex: 1;
+    margin: 0 20px;
+    display: flex;
+    justify-content: center;
+}
+.search-bar input {
+    width: 50%;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+}
+.user-icon {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+/* Layout do Conteúdo */
+.container {
+    text-align: center;
+    padding: 20px;
+}
+.box {
+    padding: 20px;
+    margin: 10px auto;
+    border-radius: 5px;
+    max-width: 300px;
+    color: white;
+}
+.total { background: #007bff; }
+.pendentes { background: #ffc107; color: black; }
+.concluidas { background: #28a745; }
+.link {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: white;
+    background: #333;
+    border-radius: 5px;
+}
+.link:hover { background: #555; }
+
+/* Rodapé */
+footer {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    position: relative; /* Em vez de fixed */
+    bottom: 0;
+}
+
+html, body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    flex: 1; /* Empurra o footer para o final da página */
+}
