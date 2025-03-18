@@ -1,6 +1,7 @@
 <?php
-include 'config.php';
 include 'includes/header.php';
+include 'config.php';
+include 'includes/sidebar.php';
 
 if (!isset($_GET['id'])) {
     die("ID da manutenção não especificado.");

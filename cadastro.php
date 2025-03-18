@@ -1,4 +1,8 @@
-<?php include 'config.php'; ?>
+<?php 
+include 'includes/header.php';
+include 'config.php';
+include 'includes/sidebar.php';
+?>
 
 <!DOCTYPE html>
 <html lang="pt">
@@ -72,3 +76,5 @@
 
 </body>
 </html>
+
+<?php include 'includes/footer.php'; ?>

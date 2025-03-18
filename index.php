@@ -1,6 +1,7 @@
 <?php
 include 'config.php';
 include 'includes/header.php';
+include 'includes/sidebar.php';
 
 // Contar o número total de manutenções
 $sqlTotal = "SELECT COUNT(*) as total FROM manutencoes";
